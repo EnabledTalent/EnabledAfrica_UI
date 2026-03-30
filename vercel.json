@@ -1,0 +1,7 @@
+{
+  "installCommand": "cd enabled-africa-ui && npm install",
+  "buildCommand": "cd enabled-africa-ui && npm run build",
+  "outputDirectory": "enabled-africa-ui/build",
+  "rewrites": [{ "source": "/(.*)", "destination": "/index.html" }]
+}
+

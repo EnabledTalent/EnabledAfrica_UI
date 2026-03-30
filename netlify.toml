@@ -1,0 +1,10 @@
+# Build & publish only the Create React App in enabled-africa-ui/
+[build]
+  command = "cd enabled-africa-ui && npm install && npm run build"
+  publish = "enabled-africa-ui/build"
+
+# React Router (client-side routes)
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
